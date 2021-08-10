@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_menu_items_components_columns",
+  "info": {
+    "name": "Column",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "SubMenuTitle": {
+      "type": "string"
+    },
+    "Border": {
+      "type": "boolean",
+      "default": false
+    },
+    "DarkSection": {
+      "type": "boolean",
+      "default": false
+    },
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu-items-components.item"
+    }
+  }
+}

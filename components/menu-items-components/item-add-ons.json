@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_item_add_ons",
+  "info": {
+    "name": "ItemAddOns",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "AddOnName": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "float"
+    },
+    "PriceMax": {
+      "type": "float"
+    }
+  }
+}

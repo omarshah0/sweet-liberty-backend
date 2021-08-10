@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hours",
+  "info": {
+    "name": "Hours",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Open": {
+      "type": "boolean",
+      "default": true
+    },
+    "OpeningTime": {
+      "type": "time"
+    },
+    "ClosingTime": {
+      "type": "time"
+    },
+    "Day": {
+      "type": "string"
+    }
+  }
+}

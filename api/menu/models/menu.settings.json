@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menus",
+  "info": {
+    "name": "Menu",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MenuNameNavigation": {
+      "type": "string"
+    },
+    "MenuDescription": {
+      "type": "text"
+    },
+    "SubMenu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu-items-components.column"
+    },
+    "MenuIcon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "MenuNameFull": {
+      "type": "string"
+    },
+    "DealBoxTop": {
+      "type": "component",
+      "repeatable": false,
+      "component": "menu-items-components.deal-box-top"
+    },
+    "SecondMenu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu-items-components.column"
+    },
+    "DealBoxSecondMenu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "menu-items-components.deal-box-bottom"
+    },
+    "SecondMenuTitle": {
+      "type": "string"
+    },
+    "BackgroundColor": {
+      "type": "string"
+    }
+  }
+}

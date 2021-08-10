@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_items",
+  "info": {
+    "name": "Item",
+    "icon": "baby-carriage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ItemName": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Price": {
+      "type": "float"
+    },
+    "itemAddOns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu-items-components.item-add-ons"
+    }
+  }
+}

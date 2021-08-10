@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_menu_items_components_deal_box_bottoms",
+  "info": {
+    "name": "DealBoxBottom",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "float"
+    }
+  }
+}

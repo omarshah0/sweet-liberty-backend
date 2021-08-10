@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_menu_items_components_deal_box_tops",
+  "info": {
+    "name": "DealBoxTop",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "FirstPriceTitle": {
+      "type": "string"
+    },
+    "FirstPrice": {
+      "type": "float"
+    },
+    "SecondPriceTitle": {
+      "type": "string"
+    },
+    "SecondPrice": {
+      "type": "float"
+    },
+    "ConsumerInformation": {
+      "type": "string"
+    }
+  }
+}
