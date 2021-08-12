@@ -2,7 +2,8 @@
   "collectionName": "components_menu_items_components_deal_box_tops",
   "info": {
     "name": "DealBoxTop",
-    "icon": "align-left"
+    "icon": "align-left",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -22,7 +23,7 @@
       "type": "float"
     },
     "ConsumerInformation": {
-      "type": "string"
+      "type": "text"
     }
   }
 }
